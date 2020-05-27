@@ -6,10 +6,10 @@ from sklearn.feature_extraction.text import TfidfTransformer,TfidfVectorizer
 from sklearn.cluster import KMeans, MiniBatchKMeans
 from sklearn.metrics import accuracy_score
 
-n_features = 10000 # Maximum number of words to use
-min_df = 2 # Miniumum document frequency
-max_df = 0.8 # Maxiumum fraction of docs a word can occur in
-n_clusters = 10 #Number of clusters to find
+n_features = 10000 # Максимальное количество слов для использования
+min_df = 2 # Минимальная частота документов
+max_df = 0.8 # Максимальная доля документов, в которых может встречаться слово
+n_clusters = 10 #Количество кластеров, чтобы найти
 
 
 df = pd.read_csv('tmdb_5000_movies.csv')
@@ -19,7 +19,7 @@ print(df.head(2))
 
 
 
-# Convert the movie overviews from text to TF-IDF vectors
+# Конвертировать обзоры фильмов из текста в векторы TF-IDF
 vectorizer = TfidfVectorizer(max_df=max_df,
                              max_features=n_features,
                              min_df=min_df,
