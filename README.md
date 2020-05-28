@@ -1,7 +1,10 @@
- # Recommender Systems>
-
-
+ # Recommender Systems
+The task is to develop different types of recommendation systems, taking as a basis any mathematical solutions and algorithms, not including neural networks.
 # Task description
-Objective: crop images. Images are input, you need to find their outline, crop and save to disk. 
- - 1.1 The program should contain an agparser and run from the console. 
- - 1.2 The code should be issued in function.
+4 types of recommendation systems have been developed:
+ - Demographic;
+ - Content_Based_Filtering;
+ - k-means_recommend;
+ - SVD_calloborativ.
+ # Dataset 
+Dataset TMDB 5000 Movie Dataset was used.
