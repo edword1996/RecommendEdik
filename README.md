@@ -12,8 +12,8 @@ Describe dataset:
 
 The first dataset 'tmdb_5000_credits.csv', and it contains the following:
 
-movie_id - unique identifier for each movie
-cast - name of lead and supporting actors
+- movie_id - unique identifier for each movie
+- cast - name of lead and supporting actors
 crew - name of director, editor, composer, writer, and more.
 
 The second dataset 'tmdb_5000_movies.csv', and it contains the following:
