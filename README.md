@@ -38,11 +38,9 @@ The second dataset 'tmdb_5000_movies.csv', and it contains the following:
 - vote_average - average ratings of movie recieved
 - vote_count - count of votes recieved
 
-
-# Demographic filtering
  # Download project
  In order for the project to be cloned to the current folder, you need to open the command line and run the commandу (git clone 
-  https://github.com/edword1996/CUTcontours.git)
+  https://github.com/edword1996/RecommendEdik.git)
   
   # Package Installation
 
@@ -51,25 +49,60 @@ In order to run the program, you must install Python 3.5.6
 You can download and install python here https://www.python.org/downloads/
 
 Installation Instructions https://www.howtogeek.com/197947/how-to-install-python-on-windows/
-
-
+This package installation applies to all files.
 
 Requirements install:
 ```
-pip install cycler==0.10.0
-pip install kiwisolver==1.1.0
-pip install matplotlib==3.0.3
-pip install numpy==1.18.2
-pip install opencv-python==4.2.0.32
-pip install pyparsing==2.4.7
-pip install python-dateutil==2.8.1
-pip install six==1.14.0
+alembic==1.4.2
+apyori==1.1.2
+attrs==19.3.0
+certifi==2020.4.5.1
+chardet==3.0.4
+cycler==0.10.0
+Cython==0.29.19
+dataset==1.3.1
+feedparser==5.2.1
+idna==2.9
+joblib==0.14.1
+kiwisolver==1.1.0
+Mako==1.1.2
+MarkupSafe==1.1.1
+matplotlib==3.0.3
+mlxtend==0.17.2
+numpy==1.18.4
+pandas==0.24.2
+pyfpgrowth==1.0
+pyparsing==2.4.7
+python-dateutil==2.8.1
+python-editor==1.0.4
+pytz==2020.1
+reader==0.13
+requests==2.23.0
+scikit-learn==0.22.2.post1
+scipy==1.4.1
+seaborn==0.9.1
+six==1.14.0
+SQLAlchemy==1.3.17
+urllib3==1.25.9
+
 ```
- 
 All the libraries above are installed using (```pip install -r requirements.txt```) the command line.
 
+# Usage
+To start a project, open a command prompt in the folder where the project is located.
+```
+python demographic.py
+Content_Based_Filtering.py
+k-means_recommend.py
+SVD_calloborativ.py
+```
+
+# Demographic filtering
 Before getting started with this:
 
 - we need a metric to score or rate movie
 - Calculate the score for every movie
 - Sort the scores and recommend the best rated movie to the users.
+# Result
+
+
