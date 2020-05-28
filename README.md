@@ -104,5 +104,6 @@ Before getting started with this:
 - Calculate the score for every movie
 - Sort the scores and recommend the best rated movie to the users.
 # Result
-
-
+<p align="center"> 
+    <img src="https://user-images.githubusercontent.com/54912523/83179638-f0456700-a12a-11ea-8499-f8a49b3d4b89.JPG" alt="alternate text">
+ </p>
