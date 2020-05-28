@@ -3,7 +3,7 @@
 # Task description
 The task is to develop different types of recommendation systems, taking as a basis any mathematical solutions and algorithms, not including neural networks.
 4 types of recommendation systems have been developed:
- - Demographic;
+ - Demographic filtering;
  - Content_Based_Filtering;
  - k-means_recommend;
  - SVD_calloborativ.
@@ -37,3 +37,12 @@ The second dataset 'tmdb_5000_movies.csv', and it contains the following:
 - title - title of movie
 - vote_average - average ratings of movie recieved
 - vote_count - count of votes recieved
+
+
+# Demographic filtering
+
+Before getting started with this:
+
+- we need a metric to score or rate movie
+- Calculate the score for every movie
+- Sort the scores and recommend the best rated movie to the users.
