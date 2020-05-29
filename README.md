@@ -114,12 +114,20 @@ In this case, I only sorted the columns by popularity rating, and based on the s
 # Content_Based_Filtering
 We will compute pairwise similarity scores for all movies based on their plot descriptions and recommend movies based on that similarity score. The plot description is given in the overview feature of our dataset. Let's take a look at the data
 # Result
+<p align="center"> 
+    <img src="https://user-images.githubusercontent.com/54912523/83251025-a81d5780-a1b1-11ea-8bbc-89abf299d110.JPG" alt="alternate text">
+ </p>
+
 
 # k-means_recommend
 
 In this recommendation system, I will use the recommendation for the similarity of the description of the film. That is, after watching a movie, you will be recommended films according to the previous description of the movie that you watched. In this case, the algorithm is used to the nearest ones, clustering is carried out by similarity, you can see an example of work below.
 
 # Result
+<p align="center"> 
+    <img src="https://user-images.githubusercontent.com/54912523/83251066-bc615480-a1b1-11ea-90f8-d4ebe31a26a3.JPG" alt="alternate text">
+ </p>
+
 
 
 # SVD_calloborativ
@@ -130,6 +138,10 @@ It’s important to get 2 approaches used here:
 - Single Value Decomposition.
 
 # Result
+
+<p align="center"> 
+    <img src="https://user-images.githubusercontent.com/54912523/83251010-a0f64980-a1b1-11ea-877f-975b00c1bc02.JPG" alt="alternate text">
+ </p>
 
 
 
