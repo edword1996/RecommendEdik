@@ -109,3 +109,29 @@ Before getting started with this:
  </p>
  
 In this case, I only sorted the columns by popularity rating, and based on the sorting, I selected the best films.
+
+
+# Content_Based_Filtering
+We will compute pairwise similarity scores for all movies based on their plot descriptions and recommend movies based on that similarity score. The plot description is given in the overview feature of our dataset. Let's take a look at the data
+# Result
+
+# k-means_recommend
+
+In this recommendation system, I will use the recommendation for the similarity of the description of the film. That is, after watching a movie, you will be recommended films according to the previous description of the movie that you watched. In this case, the algorithm is used to the nearest ones, clustering is carried out by similarity, you can see an example of work below.
+
+# Result
+
+
+# SVD_calloborativ
+In this system, we use variables such as 'userid', 'moveid', 'rating', 'timestamp'.
+It’s important to get 2 approaches used here:
+- Item Based Collaborative Filtering ;
+- User based filtering;
+- Single Value Decomposition.
+
+# Result
+
+
+
+
+
