@@ -14,7 +14,7 @@ Mako==1.1.2
 MarkupSafe==1.1.1
 matplotlib==3.0.3
 mlxtend==0.17.2
-numpy==1.18.4
+numpy==1.22.0
 pandas==0.24.2
 pyfpgrowth==1.0
 pyparsing==2.4.7
