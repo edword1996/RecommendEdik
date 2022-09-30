@@ -8,7 +8,7 @@ Cython==0.29.19
 dataset==1.3.1
 feedparser==5.2.1
 idna==2.9
-joblib==0.14.1
+joblib==1.2.0
 kiwisolver==1.1.0
 Mako==1.1.2
 MarkupSafe==1.1.1
